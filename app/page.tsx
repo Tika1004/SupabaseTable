@@ -1,5 +1,11 @@
+import CreateSupaBase from "@/components/supaBase/CreateSupaBase";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <CreateSupaBase />
+    </>
+  );
 };
 
 export default Home;
